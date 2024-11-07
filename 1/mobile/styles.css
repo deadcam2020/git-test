@@ -1,0 +1,130 @@
+
+body {
+   font-size: 16px;
+ }
+
+@media (max-width: 768px) {
+   
+   body{
+      background-color: hsl(212, 45%, 89%);
+      font-family: 'Outfit', sans-serif;
+      display: flex;
+      align-items: center; /* Centra verticalmente */
+      justify-content: center; /* Centra horizontalmente */
+      height: 100vh; /* Hace que el body ocupe el 100% de la altura de la pantalla */
+      margin: 0; /* Quita los márgenes predeterminados */
+   
+   }
+   
+   section{
+   display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60%;
+      width: 85%;
+      background-color: rgb(255, 255, 255);
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+   }
+   
+   section img{
+      border-radius: 10px;
+      
+       margin-bottom: 10%;
+       width: 90%;
+       height: auto;
+      margin-top: 10%;
+   
+      
+   }
+   
+   .qr_section .text1 {
+       width: 85%; /* El párrafo ocupará el 80% del ancho de la sección */
+      margin: 5px auto;
+       font-size: 1.2rem;
+       color: #333;
+       font-weight: bold;
+       padding-bottom: 7%;
+       font-weight: 700;
+   
+    }
+   
+   section .text2 {
+       width: 85%; /* El párrafo ocupará el 80% del ancho de la sección */
+      margin: 5px auto; /* Espacio entre los párrafos */
+       font-size: 0.9rem;
+       font-weight: 400;
+       width: 80%;
+       padding-bottom: 10%;
+       color: rgb(119, 119, 146);
+   
+    }
+    
+   }
+
+@media (min-width: 1024px) {
+   
+body{
+   background-color: hsl(212, 45%, 89%);
+   font-family: 'Outfit', sans-serif;
+   display: flex;
+   align-items: center; /* Centra verticalmente */
+   justify-content: center; /* Centra horizontalmente */
+   height: 100vh; /* Hace que el body ocupe el 100% de la altura de la pantalla */
+   margin: 0; /* Quita los márgenes predeterminados */
+
+}
+
+section{
+display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 50%;
+   width: 15%;
+   background-color: rgb(255, 255, 255);
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+section img{
+   border-radius: 10px;
+   
+    margin-bottom: 10%;
+    width: 90%;
+    height: auto;
+   margin-top: 10%;
+
+   
+}
+
+.qr_section .text1 {
+    width: 85%; /* El párrafo ocupará el 80% del ancho de la sección */
+   margin: 5px auto;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 7%;
+    font-weight: 700;
+
+ }
+
+section .text2 {
+    width: 85%; /* El párrafo ocupará el 80% del ancho de la sección */
+   margin: 5px auto; /* Espacio entre los párrafos */
+    font-size: 0.9rem;
+    font-weight: 400;
+    width: 80%;
+    padding-bottom: 10%;
+    color: rgb(119, 119, 146);
+
+ }
+ 
+}
